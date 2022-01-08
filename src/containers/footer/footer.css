@@ -1,0 +1,54 @@
+.footer{
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+    background: var(--color-footer);
+}
+
+.footer h1{
+    width: 90%;
+    font-size: 55px;
+}
+
+.footer .access_btn{
+    margin: 50px 0px;
+    border: 2px solid #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.l1,.l2,.l3,.l4{
+    text-align: left;
+    font-size: 14px;  
+}
+
+.bottom ul, .l1{
+    padding: 20px;
+}
+
+.bottom ul li , .l1 img{
+    margin-bottom: 10px;
+}
+
+.l1 p{
+    width: 90%;
+}
+
+.end-line{
+    margin-top: 20px;
+}
+
+@media (max-width:900px) {
+    .footer .bottom{
+        flex-direction: column;
+    }  
+
+}

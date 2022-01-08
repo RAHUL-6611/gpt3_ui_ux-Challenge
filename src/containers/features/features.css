@@ -1,0 +1,41 @@
+.features{
+    /* width: 180vh; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* padding: 40px 80px; */
+}
+.left_features{
+    flex: 1;
+    margin-right: 4rem;
+
+}
+
+.left_features h1{
+    width: 100%;
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.left_features p{
+    color: #ff8A71;
+    text-align: left;
+}
+
+
+.right_features{
+    flex:1.8;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    /* height: 100%; */
+}
+
+@media (max-width:900px) {
+    .features{
+        flex-direction: column;
+    }  
+
+}
